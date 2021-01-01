@@ -17,16 +17,6 @@
 		<spring.version>5.2.8.RELEASE</spring.version>
 	</properties>
 
-
-
-	<repositories>
-		<repository>
-			<id>springsource-milestones</id>
-			<name>SpringSource Milestones Proxy</name>
-			<url>https://oss.sonatype.org/content/repositories/springsource-milestones</url>
-		</repository>
-	</repositories>
-
 	<build>
 		<finalName>SpringMVC</finalName>
 		<plugins>
