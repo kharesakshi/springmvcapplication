@@ -13,8 +13,8 @@ public class DBConfig {
 		DriverManagerDataSource dmd = new DriverManagerDataSource();
 		dmd.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		dmd.setUrl("jdbc:mysql://localhost:3308/login");
-		dmd.setUsername("root");
-		dmd.setPassword("stars19");
+		dmd.setUsername("/*<username>*/");
+		dmd.setPassword("/*<password>*/");
 
 		return dmd;
 	}
