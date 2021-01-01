@@ -19,13 +19,13 @@
 
 
 
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<id>springsource-milestones</id>
 			<name>SpringSource Milestones Proxy</name>
 			<url>https://oss.sonatype.org/content/repositories/springsource-milestones</url>
 		</repository>
-	</repositories>
+	</repositories> -->
 
 	<build>
 		<finalName>SpringMVC</finalName>
